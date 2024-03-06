@@ -1,0 +1,63 @@
+J1 = player1 turn
+J2 = player2 turn
+
+para probar filas horizontales:
+
+game.playRound(0,0)
+game.playRound(1,0) <=j2
+game.playRound(0,1)
+game.playRound(1,2) <=j2
+game.playRound(0,2)
+
+para probar filas verticales:
+
+game.playRound(0,0)
+game.playRound(0,1) <=j2
+game.playRound(1,0)
+game.playRound(0,2) <=j2
+game.playRound(2,0)
+
+para probar filas diagonales:
+
+game.playRound(0,0)
+game.playRound(0,1) <=j2
+game.playRound(1,1)
+game.playRound(0,2) <=j2
+game.playRound(2,2)
+
+para probar diagonales inversos
+
+game.playRound(0,2)
+game.playRound(0,0) <=j2
+game.playRound(1,1)
+game.playRound(0,0) <=j2
+game.playRound(2,0)
+
+para probar empate
+
+game.playRound(2,0) o
+game.playRound(0,0) x
+game.playRound(1,0) o
+game.playRound(2,1) x
+game.playRound(0,1) o
+game.playRound(1,1) x
+game.playRound(2,2) o
+game.playRound(0,2) x
+game.playRound(1,2) o
+
+
+
+
+ ?=> Player One win
+
+
+  
+
+
+
+
+
+
+
+
+
