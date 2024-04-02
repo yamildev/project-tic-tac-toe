@@ -119,7 +119,7 @@ function GameController(
     board.dropMark(row, column, getActivePlayer().mark);
 
     /*  This is where we would check for a winner and handle that logic,
-        such as a win message. */
+        such as a win message */
 
     // Switch player turn
     
@@ -129,7 +129,7 @@ function GameController(
     
     const getWinner = determineWinner(board.getBoard());
     const matchLimit = boardSize.rows*boardSize.columns;
-    console.log('gameLimit: ', matchLimit);
+    // debug: console.log('gameLimit: ', matchLimit);
     if (matchCounter === matchLimit) {
       console.log('is a Tie:\nPlease reload the page to play again.')
     } else {

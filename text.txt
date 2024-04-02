@@ -1,3 +1,11 @@
+En esta preseleccion de juegos, 
+es el player one el que debe ganar.
+
+Esto es para corroborar que la logica en cuanto
+condicion de victoria sea satisfecha y no haya
+error al respecto.
+
+
 J1 = player1 turn
 J2 = player2 turn
 
