@@ -57,7 +57,7 @@ function Cell() {
   
     return {
       addMark,
-      getValue
+      getValue,
     };
 }
 /*
